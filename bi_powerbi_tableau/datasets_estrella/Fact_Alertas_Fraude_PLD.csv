@@ -1,0 +1,5 @@
+﻿Familia_Regla_Tipologia,Transacciones_Analizadas,Alertas_Generadas,Verdaderos_Positivos_Fraude,Falsos_Positivos_Legitimos,Monto_Fraude_Evitado_USD,Costo_Friccion_FP_USD,Tiempo_Respuesta_Seg
+01_Velocidad_3Plus_15Min,485000,640,185,455,294500.00,11375.00,0.42
+02_Salto_Geografico_Imposible,485000,310,142,168,382000.00,4200.00,0.38
+03_Monto_Atipico_ZScore_4Sigma,485000,520,164,356,418900.00,8900.00,0.35
+04_Estructuracion_Smurfing_PLD,485000,195,88,107,512000.00,2675.00,0.51

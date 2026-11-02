@@ -1,0 +1,5 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<workbook original-version='18.1' source-build='2024.1.0' version='18.1'>
+  <datasources><datasource caption='Fact_Alertas_Fraude_PLD' inline='true' name='federated.fraud_pld' version='18.1'><connection class='federated'><named-connections><named-connection caption='Fact_Alertas_Fraude_PLD' name='textscan.fraud'><connection class='textscan' directory='../datasets_estrella' filename='Fact_Alertas_Fraude_PLD.csv' /></named-connection></named-connections></connection></datasource></datasources>
+  <worksheets><worksheet name='1_Precision_vs_Friccion_FalsosPositivos'><table /></worksheet><worksheet name='2_Ahorro_Neto_Fraude_PLD_Por_Tipologia'><table /></worksheet></worksheets>
+</workbook>

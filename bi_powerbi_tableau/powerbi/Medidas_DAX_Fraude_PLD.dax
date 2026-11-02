@@ -1,0 +1,4 @@
+﻿Fraude Bruto Evitado (USD) = SUM(Fact_Alertas_Fraude_PLD[Monto_Fraude_Evitado_USD])
+Costo Friccion Falsos Positivos (USD) = SUM(Fact_Alertas_Fraude_PLD[Costo_Friccion_FP_USD])
+Beneficio Neto Mitigacion (USD) = [Fraude Bruto Evitado (USD)] - [Costo Friccion Falsos Positivos (USD)]
+Precision Regla Alertamiento (%) = DIVIDE(SUM(Fact_Alertas_Fraude_PLD[Verdaderos_Positivos_Fraude]), SUM(Fact_Alertas_Fraude_PLD[Alertas_Generadas]), 0)
